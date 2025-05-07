@@ -17,34 +17,4 @@ sommets utilisés pour cette face.
 5. Les 'A' lignes finales définissent les arêtes en utilisant les index des sommets qui définissent l'arête. 
 
 
-Exemple : le cube
-
-# Cube (Hexahedron)
-# Data: Exact Mathematics
-8 6 12                                  -------------> 8 sommets, 6 faces, 12 arêtes
- 1    1    1                            -------------> Les coordonnées des 8 sommets
- 1    1   -1
- 1   -1    1
- 1   -1   -1
--1    1    1
--1    1   -1
--1   -1    1
--1   -1   -1
-4 6 4 0 2                                 ----------> La première face a quatre cotés, les sommets sonts le 6ème, suivi du 4ème, du zérotième et du deuxième
-4 5 1 0 4
-4 7 5 4 6
-4 1 3 2 0
-4 3 7 6 2
-4 7 3 1 5
-0 1                                       --------------> les arêtes
-0 2
-0 4
-1 3
-1 5
-2 3
-2 6
-3 7
-4 5
-4 6
-5 7
-6 7
+Je voulais mettre un exemple, mais ça se formatte mal en markdown. Visualisez le fichier du cube, tout ce que j'ai expliqué ci-dessus deviendra limpide. 
